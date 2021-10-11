@@ -45,8 +45,8 @@ int main()
 	scanf("%d", &b3);
 	printf("enter c3\n");
 	scanf("%d", &c3);
-	A2C2 = (c3 - a3);
-	B2C2 = (b3 - c3);
+	A2C2 = abs(c3 - a3);
+	B2C2 = abs(b3 - c3);
 	multi = (A2C2 * B2C2);
 	printf("num ");
 	printf("%d\n", multi);
